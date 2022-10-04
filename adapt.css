@@ -1,0 +1,351 @@
+
+@media (max-width:1400px) {
+
+}
+@media (max-width:1200px) {
+    .gallery__items img {
+        max-width: 450px;
+        column-gap: 0px;
+    }
+    
+
+}
+@media (max-width:922px) {
+    .gallery__items {
+        grid-template-columns: 1fr;
+    }
+    .gallery__items img {
+        max-width: 600px;
+    }
+    .menu__list {
+        column-gap: 25px;
+        font-size: 20px;
+        font-weight: 400;      
+    }
+    .info__title {
+        font-size: 90px;
+        padding-top: 70px;
+        margin-bottom: 60px;
+    }
+    .info__phone-num {
+        font-size: 80px;
+    }
+    .info {
+        height: 600px;
+    }
+    .services__container-list {
+        font-size: 19px;
+        line-height: 1.8;
+    }
+    .services__container-img img {
+        height: 400px;
+     }
+     .warranty__image img {
+        height: 500px;
+    }
+    .warranty__text p {
+        padding-bottom: 40px;
+        font-size: 20px;
+    }
+
+}
+@media (max-width:768px) {
+    .gallery__items img {
+        max-width: 479px;
+    }
+    .menu__list {
+        column-gap: 25px;
+        font-size: 18px;
+        font-weight: 400;      
+    }
+    .info__title {
+        text-align:right;
+        font-size: 60px;
+        padding-top: 70px;
+        margin-bottom: 60px;
+    }
+    span {
+        font-size: 40px;
+        
+    }
+    .info__phone-num {
+        font-size: 60px;
+    }
+    .info__phone-num:hover {
+        font-size: 65px;
+    }
+    .info {
+        height: 450px;
+    }
+    .services__title {
+        padding-top: 25px;
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .services__container-list {
+        font-size: 17px;
+        line-height: 1.2;
+    }
+    .warranty__title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+     .warranty__image img {
+        height: 300px;
+    }
+    .warranty__text p {
+        padding-bottom: 20px;
+        font-size: 17px;
+    }
+    
+.footer {
+    font-size: 18px;
+    line-height: 1.4;
+}
+.footer__phone{
+    padding-bottom: 25px;
+}
+.footer__mail {
+    padding-top: 25px;
+}
+
+}
+   
+@media (max-width:480px) {
+    .gallery__items img {
+        max-width: 319px;
+    }
+    .menu__logo img {
+        height: 60px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; 
+    }
+    .menu__list {
+        column-gap: 14px;
+        font-size: 18px; 
+    }
+    .info__title {
+        font-size: 45px;
+        padding-top: 70px;
+        margin-bottom: 60px;
+    }
+    span {
+        font-size: 30px;
+      
+    }
+    .phone-icon {
+        height: 50px;
+    }
+    .info__phone-num {
+        font-size: 40px;
+    }
+    .info__phone-num:hover {
+        font-size: 45px;
+    }
+    .info {
+        height: 350px;
+    }
+    .services__title {
+        padding-top: 25px;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .services__container-list {
+        font-size: 13px;
+        line-height: 1.2;
+    }
+    .services__container-img img {
+        height: 280px;
+     }
+    .warranty__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+     .warranty__image img {
+        height: 220px;
+    }
+    .warranty__text p {
+        padding-bottom: 20px;
+        font-size: 13px;
+    }
+    
+.footer {
+    font-size: 14px;
+    line-height: 1.4;
+}
+.footer__phone{
+    padding-bottom: 20px;
+}
+.footer__mail {
+    padding-top: 20px;
+}
+    
+}
+@media (max-width:380px) {
+    .gallery__items img {
+        max-width: 300px;
+    }
+    .menu__logo img {
+        height: 55px;
+    }
+    .menu__list {
+        column-gap: 10px;
+        font-size: 14px; 
+    }
+    .info__title {
+        font-size: 36px;
+        padding-top: 70px;
+        margin-bottom: 60px;
+    }
+    span {
+        font-size: 24px;
+       
+    }
+    .info__title {
+        margin-bottom: 35px;
+    }
+    .phone-icon {
+        height: 45px;
+    }
+    .info__phone {
+        column-gap: 20px;
+    }
+    .info__phone-num {
+        font-size: 30px;
+    }
+
+    .info__phone-num:hover {
+        font-size: 35px;
+    }
+    .info {
+        height: 350px;
+    }
+    .services__title {
+        padding-top: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .services__container-list {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+    .services__container-img img {
+        height: 280px;
+     }
+    .warranty__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+     .warranty__image img {
+        height: 220px;
+    }
+    .warranty__text p {
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+    
+.footer {
+    font-size: 10px;
+    line-height: 1.4;
+}
+.footer__phone{
+    padding-bottom: 15px;
+}
+.footer__mail {
+    padding-top: 15px;
+}
+    
+}
+@media (max-width:320px) {
+    .gallery__items img {
+        max-width: 235px;
+    }
+    .menu__logo img {
+        height: 55px;
+    }
+    .menu__list {
+        column-gap: 8px;
+        font-size: 12px; 
+    }
+    .info__title {
+        font-size: 30px;
+        padding-top: 50px;
+        margin-bottom: 28px;
+    }
+    span {
+        font-size: 20px;
+
+    }
+    .phone-icon {
+        height: 40px;
+    }
+    .info__phone {
+        column-gap: 20px;
+    }
+    .info__phone-num {
+        font-size: 26px;
+    }
+    .info__phone-num:hover {
+        font-size: 30px;
+    }
+    .info {
+        height: 300px;
+    }
+    .services__title {
+        padding-top: 16px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .services__container-list {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+    .services__container-img img {
+        height: 220px;
+     }
+    .warranty__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .services__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .warranty__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+}
+@media (max-width:240px) {
+    .menu__list {
+        display: flex;
+        flex-wrap: wrap;  
+    }
+    .gallery__items img {
+        max-width: 150px;
+    }
+    .gallery__title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .info__phone-num {
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .info__phone-num:hover {
+        font-size: 20px;
+    }
+    .info__phone {
+        column-gap: 10px;
+    }
+    .info {
+
+        height: 260px;
+
+    }
+}

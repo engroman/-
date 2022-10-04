@@ -1,0 +1,188 @@
+body {
+   
+    margin-left: auto;
+    margin-right: auto;   
+}
+/* * {
+    border: 2px solid red;
+} */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;   
+    padding: 0 25px; 
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    font-size: 24px;
+    font-weight: 600;
+   
+}
+.menu__list-item a {
+    color: rgb(248, 246, 244);
+    transition: 0.2s ease-in;
+}
+.menu__list-item a:hover {
+
+    color: rgb(243, 9, 9);
+}
+.youtube {
+    width: 40px;
+    transition: 0.2s ease-in;
+}
+.youtube:hover {
+    transform: scale(1.1);
+}
+/* ====info===== */
+.info {
+    background-image: url(./images/холод.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin-top: 125px;
+}
+
+.info__title {
+    text-align: center;
+    font-size: 120px;
+    color: rgb(14, 30, 255);
+    padding-top: 70px;
+    margin-bottom: 80px;
+    text-shadow: 4px 4px 20px #000000;
+}
+.info__phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+span {
+    font-size: 60px;
+    color: rgb(51, 6, 122);
+}
+
+.phone-icon {
+    height: 100px;
+}
+.info__phone-num {
+    font-size: 100px;
+    text-shadow: 4px 4px 20px #000000;
+    transition: 0.4s ease-in;
+}
+.info__phone-num:hover {
+    font-size: 130px;
+}
+/* ===services=== */
+.services {
+    background-color: #00a6c5;
+    color: aliceblue;
+    margin-bottom: 50px;
+}
+.services__title {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.services__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services__container-list {
+    column-count: 2;
+    font-size: 24px;
+    line-height: 1.8;
+}
+.services__container-list ul li {
+    list-style-type: circle;
+}
+.services__container-img img {
+   height: 500px;
+}
+/* ===warranty=== */
+.warranty {
+    background-image: url(./images/depositphotos_84464692-stock-illustration-house-repair-seamless-pattern-for.jpg);
+    margin-bottom: 50px;
+}
+.warranty__title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+.warranty__info {
+    display: flex;
+    align-items: center;
+}
+.warranty__image img {
+    height: 600px;
+}
+.warranty__text p {
+    padding-bottom: 60px;
+    font-size: 24px;
+    text-align: justify;
+}
+.warranty__text p:last-child {
+    font-weight: 800;
+}
+/* ===galery== */
+.gallery {
+    background-image: url(./images/depositphotos_84464692-stock-illustration-house-repair-seamless-pattern-for.jpg);
+    margin-bottom: 50px;
+}
+.gallery__title {
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 50px;
+
+}
+.gallery__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 30px;
+   column-gap: 30px;
+}
+.gallery__items img {
+    max-width: 600px;
+    transition: 0.2s ease-in;
+}
+.gallery__items img:hover {
+   box-shadow: 4px 4px 20px #000000;
+}
+
+
+.footer {
+    background-color: #000000;
+    text-align: center;
+    color: aliceblue;
+    font-size: 24px;
+    line-height: 1.4;
+}
+.footer__phone{
+
+    padding-bottom: 50px;
+}
+.footer__mail {
+
+    padding-top: 50px;
+}
